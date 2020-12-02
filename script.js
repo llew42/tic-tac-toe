@@ -1,5 +1,5 @@
-import Board from './Project/Classes/board.js'
-import Player from './Project/Classes/player.js'
+import Board from './Classes/board.js'
+import Player from './Classes/player.js.js'
 import {hasClass, addClass} from './helpers.js'
 
 function newGame(depth = -1, startingPlayer = 1) {
